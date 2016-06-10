@@ -1,8 +1,11 @@
-[Link back to main README.md](./README.md)
 # Project Overview
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
 
+## Quick Links
+* [GitHub Repository](http://github.com/mgg9xv/frontend-nanodegree-feedreader)
+* [GitHub Pages](http://mgg9xv.github.io/frontend-nanodegree-feedreader)
+* [mgg9xv's README.md](./README.md)
 
 ## Why this Project?
 

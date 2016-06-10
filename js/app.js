@@ -66,6 +66,7 @@ function init() {
                   * the resulting HTML to the list of entries on the page.
                   */
                  entries.forEach(function(entry) {
+                     entry.formattedDate = moment(entry.date).format("M-D-YY h:mm A");
                      container.append(entryTemplate(entry));
                  });
 

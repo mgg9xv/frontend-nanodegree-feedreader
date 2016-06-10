@@ -16,6 +16,7 @@
         <script src="jasmine/lib/jasmine-2.1.2/jasmine.js"></script>
         <script src="jasmine/lib/jasmine-2.1.2/jasmine-html.js"></script>
         <script src="jasmine/lib/jasmine-2.1.2/boot.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
     </head>
     <body class="menu-hidden">
         <div class="header">
@@ -36,7 +37,7 @@
             <a class="entry-link" href="{{link}}">
                 <article class="entry">
                     <h2>{{title}}</h2>
-                    <p>{{contentSnippet}}</p>
+                    <p><em>By {{author}}</em> <span>{{formattedDate}}</span></p>
                 </article>
             </a>
         </script>

@@ -29,3 +29,15 @@ The purpose of this project was to gain experience with writing tests using Jasm
 + View Feedreader at [http://mgg9xv.github.io/frontend-nanodegree-feedreader](http://mgg9xv.github.io/frontend-nanodegree-feedreader)
 
 ## Testing Feedreader
+
+Jasmine was used to test the functionality of the RSS Feedreader.
+
+### What is being tested?
+
+1. RSS Feeds are defined
+1. RSS Feeds have non-empty URLs
+1. RSS Feeds have non-empty names
+1. The menu is hidden by default
+1. The menu is visible when the menu icon is clicked
+1. Initial Entries have at least one entry
+1. New Feed Selection causes new feed to be loaded

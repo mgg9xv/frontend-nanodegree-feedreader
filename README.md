@@ -1,5 +1,5 @@
 # Frontend-Nanodegree Feedreader Project Overviews
-The purpose of this project was to gain experience with writing tests using Jasmine as a part of my Udacity Frontend Nanodegree. We were given a web-based application that reads RSS feeds and told to complete writing the test suite for the application.
+The purpose of this project was to gain experience with writing tests using Jasmine as a part of my Udacity Frontend Nanodegree. We were given a web-based application that reads RSS feeds and told to complete writing the test suite for the application. The result is fully-tested RSS Feedreader application.
 
 ## Quick Links
 * [GitHub Repository](http://github.com/mgg9xv/frontend-nanodegree-feedreader)

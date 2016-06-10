@@ -1,3 +1,26 @@
+# Installing the Application
+1. Clone the repo into a directory
+
+    ```git clone https://github.com/mgg9xv/frontend-nanodegree-feedreader.git```
+
+# Running the Application
+1. Navigate into the frontend-nanodegree-feedreader folder that was created when installing the application
+
+    ```cd {path-to-your-repo}/frontend-nanodegree-feedreader```
+
+1. Open ```index.html``` using your favorite web browser
+
+ **OR**
+
+ If you have Python installed, start a simple HTTP
+ server
+
+ ```python -m SimpleHTTPServer```
+
+ and navigate to ```localhost:8000``` using your favorite web browser.
+
+
+
 # Project Overview
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.

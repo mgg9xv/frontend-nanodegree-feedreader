@@ -1,29 +1,44 @@
 # Frontend-Nanodegree Feedreader Project
-The purpose of this project was to gain experience with writing tests using Jasmine as a part of my Udacity Frontend Nanodegree. We were given a web-based application that reads RSS feeds and told to complete writing the test suite for the application. 
+
+The purpose of this project was to gain experience with writing tests using Jasmine as a part of my Udacity Frontend Nanodegree. We were given a web-based application that reads RSS feeds and told to complete writing the test suite for the application.
 
 ## Table of Contents
-1. [Installing the Applicaton](#installing)
-2. [Running the Applicaton](#running)
+1. [Installing Feedreader](#installing)
+1. [Running Feedreader](#running)
+1. [Testing Feedreader](#tests)
+1. [Link to origin readme](./ORIGINAL-README.md)
 
-## Installing the Application <a id="installing"></a>
+## Installing Feedreader <a id="installing"></a>
 1. Clone the repo into a directory
 
     `
     git clone https://github.com/mgg9xv/frontend-nanodegree-feedreader.git
     `
 
-## Running the Application <a id="running"></a>
+## Running Feedreader <a id="running"></a>
+
+### Option 1
 1. Navigate into the frontend-nanodegree-feedreader folder that was created when installing the application
 
-    ```cd {path-to-your-repo}/frontend-nanodegree-feedreader```
-
+    ```
+    cd {path-to-your-repo}/frontend-nanodegree-feedreader
+    ```
 1. Open `index.html` using your favorite web browser
 
- **OR**
+### Option 2
 
- If you have Python installed, start a simple HTTP
- server
++ View Feedreader at [http://mgg9xv.github.io/frontend-nanodegree-feedreader](http://mgg9xv.github.io/frontend-nanodegree-feedreader)
 
- `python -m SimpleHTTPServer`
+## Testing Feedreader
 
- and navigate to `localhost:8000` using your favorite web browser.
+Jasmine was used to test the functionality of the RSS Feedreader.
+
+### What is being tested?
+
+1. RSS Feeds are defined
+1. RSS Feeds have non-empty URLs
+1. RSS Feeds have non-empty names
+1. The menu is hidden by default
+1. The menu is visible when the menu icon is clicked
+1. Initial Entries have at least one entry
+1. New Feed Selection causes new feed to be loaded

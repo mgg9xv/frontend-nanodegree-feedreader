@@ -1,14 +1,14 @@
 
 # Table of Contents
-1. [Installing the Applicaton](# Installing the Application)
-2. [Running the Applicaton](# Installing the Application)
+1. [Installing the Applicaton](#installing)
+2. [Running the Applicaton](#running)
 
-# Installing the Application
+# Installing the Application <a id="installing"></a>
 1. Clone the repo into a directory
 
     ```git clone https://github.com/mgg9xv/frontend-nanodegree-feedreader.git```
 
-# Running the Application
+# Running the Application <a id="running"></a>
 1. Navigate into the frontend-nanodegree-feedreader folder that was created when installing the application
 
     ```cd {path-to-your-repo}/frontend-nanodegree-feedreader```

@@ -1,3 +1,8 @@
+
+# Table of Contents
+1. [Installing the Applicaton](# Installing the Application)
+2. [Running the Applicaton](# Installing the Application)
+
 # Installing the Application
 1. Clone the repo into a directory
 

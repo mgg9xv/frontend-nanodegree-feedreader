@@ -45,3 +45,4 @@ Jasmine was used to test the functionality of the RSS Feedreader.
 1. The menu is visible when the menu icon is clicked
 1. Initial Entries have at least one entry
 1. New Feed Selection causes new feed to be loaded
+

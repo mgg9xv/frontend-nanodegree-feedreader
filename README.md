@@ -1,38 +1,29 @@
-# Frontend-Nanodegree Feedreader Project Overview
+# Udacity's Front-End Web Developer Feedreader Project
 The purpose of this project was to gain experience with writing tests using Jasmine as a part of my Udacity Frontend Nanodegree. We were given a web-based application that reads RSS feeds and told to complete writing the test suite for the application. The result is fully-tested RSS Feedreader application.
 
-## Quick Links
-* [Source Code](https://github.com/mggwxyz/frontend-nanodegree-feedreader)
-* [Demo](https://mggwxyz.github.io/frontend-nanodegree-feedreader)
-* [Original Udacity README.md](./ORIGINAL-README.md)
-
 ## Table of Contents
-1. [Installing Feedreader](#installing)
-1. [Running Feedreader](#running)
-1. [Testing Feedreader](#tests)
+1. [Setting up the project](#setting-up-the-project)
+1. [Testing the project](#testing-the-project)
+1. [Helpful Links](#helpful-links)
 
-## Installing Feedreader <a id="installing"></a>
-1. Clone the repo into a directory
+## Setting up the project
+1. Clone the git repository into a directory using a bash terminal
 
-    `
+    ```bash
     git clone https://github.com/mggwxyz/frontend-nanodegree-feedreader.git
-    `
-
-## Running Feedreader <a id="running"></a>
-
-### Option 1
-1. Navigate into the frontend-nanodegree-feedreader folder that was created when installing the application
+    ````
+1. Navigate into the `frontend-nanodegree-feedreader` directory
 
     ```
     cd frontend-nanodegree-feedreader
     ```
-1. Open `index.html` using your favorite web browser
+1. Start the application at `http://127.0.0.1:3000`
+    
+    ```
+    npm start
+    ```
 
-### Option 2
-
-+ View Feedreader at [https://mggwxyz.github.io/frontend-nanodegree-feedreader](https://mggwxyz.github.io/frontend-nanodegree-feedreader)
-
-## Testing Feedreader
+## Testing the project
 
 Jasmine was used to test the functionality of the RSS Feedreader.
 
@@ -46,3 +37,6 @@ Jasmine was used to test the functionality of the RSS Feedreader.
 1. Initial Entries have at least one entry
 1. New Feed Selection causes new feed to be loaded
 
+## Helpful Links
+* [Source Code](https://github.com/mggwxyz/frontend-nanodegree-feedreader)
+* [Online Demo](https://mggwxyz.github.io/frontend-nanodegree-feedreader)

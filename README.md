@@ -7,21 +7,21 @@ The purpose of this project was to gain experience with writing tests using Jasm
 1. [Helpful Links](#helpful-links)
 
 ## Setting up the project
-1. Clone the git repository into a directory using a bash terminal
+Clone the git repository into a directory using a bash terminal
 
-    ```bash
-    git clone https://github.com/mggwxyz/frontend-nanodegree-feedreader.git
-    ````
-1. Navigate into the `frontend-nanodegree-feedreader` directory
+```bash
+git clone https://github.com/mggwxyz/frontend-nanodegree-feedreader.git
+````
+Navigate into the `frontend-nanodegree-feedreader` directory
 
-    ```
-    cd frontend-nanodegree-feedreader
-    ```
-1. Start the application at `http://127.0.0.1:3000`
+```bash
+cd frontend-nanodegree-feedreader
+```
+Start the application at `http://127.0.0.1:3000`
     
-    ```
-    npm start
-    ```
+```bash
+npm start
+```
 
 ## Testing the project
 

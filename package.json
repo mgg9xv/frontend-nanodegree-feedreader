@@ -1,10 +1,13 @@
 {
   "name": "frontend-nanodegree-feedreader",
   "version": "1.0.0",
-  "description": "Udacity's Front-End Web Developer Nanodegree Feedreader Project",
+  "description": "A RSS feed reader for Udacity's Front-End Web Developer Nanodegree",
   "main": "js/app.js",
   "scripts": {
-    "start": "npm i && http-server -o -p 3000"
+    "start": "http-server -o -p 3000",
+    "test": "jasmine",
+    "demo": "npm start",
+    "deploy": "gh-pages"
   },
   "repository": {
     "type": "git",

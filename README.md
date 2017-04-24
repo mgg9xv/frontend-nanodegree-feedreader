@@ -33,7 +33,7 @@ npm install
 ```
 
 ## Running the project
-Once the project is setup, it can be run at `http://127.0.0.1:3000`
+Once the project is setup, it can be run at `http://127.0.0.1:8080`
 ```bash
 npm start
 ```
